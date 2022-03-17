@@ -72,7 +72,8 @@ body {
 
 #terminal__body {
   background: rgba(56, 4, 40, 0.9);
-  font-family: 'Ubuntu Mono';
+  font-family: 'Fira Mono';
+  font-size: 14px ;
   height: calc(100% - 30px);
   padding-top: 2px;
   margin-top: -1px;
@@ -105,6 +106,9 @@ body {
   width: 8px;
   margin-left: 9px;
   animation: blink 1200ms linear infinite;
+}
+#terminal__prompt--header {
+  background-color: #dddddd;
 }
 
 
@@ -142,7 +146,6 @@ Skip Results Iframe
 
 EDIT ON
 
-/* MAc style dock by fivera.net */
 
 
 div.cap {
