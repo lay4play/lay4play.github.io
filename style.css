@@ -5,6 +5,11 @@ body {
 /*  background: linear-gradient(45deg, #57003f 0%,#f57453 100%);*/
   background: url(img/a.jpg);
   font-family: Ubuntu;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+/*  background-color: #de4c12;*/ 
 }
 
 #container {
