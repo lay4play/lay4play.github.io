@@ -141,8 +141,6 @@ body {
     width: 90%;
   }
 }
-/**/
-
 
 HTML CSS 
 
@@ -157,7 +155,7 @@ div.cap {
 display: block;
 height: 100px;
 width: 40px;
-background: url(http://fivera.net/wp-content/uploads/2013/08/dock-background-fivera-net.png) bottom left no-repeat;
+background: url(https://fivera.net/wp-content/uploads/2013/08/dock-background-fivera-net.png) bottom left no-repeat;
 }
 
 div.cap.left {
