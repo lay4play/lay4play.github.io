@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="it">
+<title>Dove conservare i nostri dati - Lay4website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/png" href="/lay.png">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a class="w3-bar-item w3-button w3-hover-black" href="Home"><i class="fa fa-home"></i> Home</a>
+    <a href="Chi_Sono" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Chi sono</a>
+    <a href="News" class="w3-bar-item w3-button w3-hide-small w3-hover-white">News</a>
+  </div>
+</div>
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+<!-- menù -->
+  <h4 class="w3-bar-item"><b>Collegamenti</b></h4>
+<!-- links, icons (https://astronautweb.co/snippet/font-awesome/) -->
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://cloud.lay4play.tk"><i class="fa fa-cloud"></i> Lay4cloud</a>
+  <i class="fa fa-youtube w3-bar-item w3-button w3-hover-black" href=#> Youtube</i>
+</nav>
+      <div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Dove conservare i vostri dati</h1>
+      <p>Molti useranno in vecchio metodo di scrivere tutte le foto delle proprie vacanze nella fidata chiavetta USB o nel vecchio HDD. Molti che invece le conservano solo ed esclusivamente nel cloud.
+
+Ma quale di queste è la scelta migliore?
+Partiamo dal fatto che in tutti i casi ci sono degli svantaggi, sia nel cloud che nell’archiviazione negli HDD o USB. <p>
+<h1>Storage nelle USB, negli HDD o nelle SSD</h1>
+<p>È il metodo più antico per conservare i nostri dati, gli HDD hanno svolto un ruolo fondamentale nell’evoluzione dei computer. Vediamo i vantaggi e gli svantaggi della memorizzazione in “locale”.<p>
+<h1>Vantaggi</h1>
+<p>Prezzo abbastanza basso anche per grandi capacità;
+Velocità di scrittura/lettura sempre sopra 3 MB/s ;
+File accessibili anche offline ;<p>
+<h1>Svantaggi</h1>
+<p>I supporti di memorizzazione hanno bisogno di manutenzione costante
+I file in essi sono soggetti a virus di tipo ransom
+Gli HDD hanno una vita media di 4 anni, e si rovinano anche senza essere utilizzati o facendo cadute
+I file possono essere cancellati da formattazioni sbagliate
+In caso di rottura i costi per il recupero dati sono elevatissimi e spesso non danno risultati pari al 100% <p>
+<h1>Archiviazione su cloud</h1>
+<p>È un metodo moderno di archiviare i nostri file, dalle foto delle vacanze ai documenti di lavoro, ma moderno non vuol dire sempre privo di difetti <p>
+<h1>Vantaggi</h1>
+<p>Essendo gestiti da enti esterne i dischi non necessitano di manutenzione costante da parte dell’utente.
+File non attaccabili da virus di tipo ransom
+File protetti da password
+File condivisibili in modo semplice
+Velocità alta con la fibra
+Aziende mettono a disposizione una soglia di GB gratuiti* <p>
+<h1>Svantaggi</h1>
+<p>Molto spesso bisogna acquistare degli abbonamenti mensili che a lungo andare costerebbero più di un HDD della stessa capcità);
+File soggetti ad attacchi hacker
+File accessibili solo online
+Velocità bassa con le vecchie ADSL
+Nelle mani dell’azienda sbagliata i tuoi file possono essere venduti a terzi <p>
+<footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+      <h4>Lay4play - 2020</h4>
+    </div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
+

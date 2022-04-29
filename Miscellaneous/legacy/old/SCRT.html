@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="it">
+<title>Modalità sola lettura cosa è? - Lay4website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/png" href="/lay.png">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a class="w3-bar-item w3-button w3-hover-black" href="index.html"><i class="fa fa-home"></i> Home</a>
+    <a href="Chi_Sono" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Chi sono</a>
+    <a href="News" class="w3-bar-item w3-button w3-hide-small w3-hover-white">News</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+<!-- menù -->
+  <h4 class="w3-bar-item"><b>Collegamenti</b></h4>
+<!-- links, icons (https://astronautweb.co/snippet/font-awesome/) -->
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://cloud.lay4play.tk"><i class="fa fa-cloud"></i> Lay4cloud</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="https://www.youtube.com/channel/UCQAmdDoqJGCpa-Gw-LJCgsA?view_as=subscriber"><i class="fa fa-youtube"></i> YouTube</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+  
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Modalità sola lettura cosa è, e quando si presenta</h1>
+      <p>Molto spesso quando si parla di modalità "sola lettura", "modalità scrittua", "protezione da scrittura", "Write protection"
+         ecc.. ci vengono in mente le vecchie schede SD che erano dotate della linguetta sul lato che quando si calava
+        era capace di bloccare la modifica dei file / eliminazione di essi. Questa modalità è utilissima per evitare di arrecare
+    danni ai file presenti nella SD, in modo da evitare accidentali formattazioni e/o cancellazioni permanenti dei file, dato che 
+con la modalità "sola lettua" i file possono essere solo letti e copiati in altri dispositivi, i file presenti dentro la scheda non verranno
+intaccati in alcun modo.</p>
+<h3>Su quali device si presenta la modalità sola lettura?</h3>
+<p>La modalità sola lettura si presenta su moltissimi device di archiviazione di dati, come i vecchi floppy, le Chiavette USB, le SD, le microSD, le miniSD, le SSD ed in modo differente nei CD
+</p><h4>Ma perchè si presenta questa modalità su questi dispositivi?</h4>
+<p>La vera domanda è: come è possibile che una USB vada in modalità sola lettura se non è presente alcun interruttore o levetta 
+    che permetta di impostare questa modalità?
+    Semplicemente le USB le SSD e tutti i tipi di SD usano delle celle di memoria per imagazzinare i dati, 
+    esse hanno però un limite di dati che possono essere scritti, per esempio sulle SSD MX500 di crucial da 2TB possono essere scritti circa fino a 2000TB di dati prima che le celle inizino a danneggiarsi.
+    Una volta che le celle sono danneggiate irreparabilmente esse rifuitano ogni operazione di scrittura dei dati presenti sul dispositvio, 
+    questo spiega perchè anche le SSD e le USB vanno in modalità scrittura, anche non avendo una levetta che le permette di entrare in quella modalità.
+</p><h5>CD e modalità sola lettura che nesso hanno?</h5>
+      <p>I CD una volta masterizzati non si possono più formattare (si fa eccezzione per i dischi riscrivibili)
+          entrando quindi in  una modalità sola lettura permanente alla prima scrittua, ma i CD non usano delle celle di memoria,
+          bensì utilizzano un materiale che quando viene mastrizzato fa dei piccoli fossi, che letti dal lettore CD/DVD diventano dei file
+      </p>
+      <h2>Come riparo un dispositivo in modalità sola lettura?</h2>
+      <p>A meno che il dispositivo non abbia una leva fisica un qualsiasi dispositivo bloccato in modalità scrittura non è più recuperabile
+          dato che se è entranto in modalità sola lettura da solo vuol dire che ci sono dei problemi molto seri a livello dei chip di memoria, ricordo che i file
+          sono pienamente leggibili, quindi è possibile copiarli su altri dischi per non perderli
+      </p>
+      <h3>Gli HDD non vanno in modalità scrittura?</h3>
+      <p>a meno che non ci sia una impostazione software che blocchi i tentativi di scrittura sul disco gli HDD NON entrano in modalità sola lettura quando 
+          ci stanno per abbandonare, dato che i dischi non utilizzano delle celle di memoria per imagazzinare i dati,
+          ma bensi utilizzano delle testine e dei piatti (scopri come funziona un HDD in <a href="./HDD.html">questo articolo</a> )
+      </p>
+      <footer id="myFooter">
+        <div class="w3-container w3-theme-l2 w3-padding-32">
+          <h4>Lay4play - 2020</h4>
+        </div>
+    
+    <!-- END MAIN -->
+    </div>
+    
+    <script>
+    // Get the Sidebar
+    var mySidebar = document.getElementById("mySidebar");
+    
+    // Get the DIV with overlay effect
+    var overlayBg = document.getElementById("myOverlay");
+    
+    // Toggle between showing and hiding the sidebar, and add overlay effect
+    function w3_open() {
+      if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+        overlayBg.style.display = "none";
+      } else {
+        mySidebar.style.display = 'block';
+        overlayBg.style.display = "block";
+      }
+    }
+    
+    // Close the sidebar with the close button
+    function w3_close() {
+      mySidebar.style.display = "none";
+      overlayBg.style.display = "none";
+    }
+    </script>
+    
+    </body>
+    </html>
+    
+    
+    
+    
+    
+    
